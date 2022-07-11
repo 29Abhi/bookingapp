@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log-In</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <a href="/index.html" id="home">Home</a>
+      <a href="/signup.html" id="signUp">Sign Up</a>
+    </div>
+    <div id="form" onsubmit="login(event)" >
+      <h1>User Log In</h1>
+      <!-- - The input fields will have ids:- "email" and "password"
+  - The log-in button will have id:- "log_in".   -->
+  <form id="loginform"  onsubmit="login(event)" >
+    <input placeholder="enter email" type="email" name="" id="email">
+    <br><br>
+    <input  placeholder="enter password" type="password" name="" id="password">
+    <br><br>
+    <input type="submit" value="submit" id="log_in">
+  </form>
+    </div>
+  </body>
+</html>
+<script src="./scripts/login.js" >
+
+</script>
